@@ -1,7 +1,5 @@
 # 🍕 Pizza Sales Analysis Dashboard (Power BI Project)
 
-![Pizza Dashboard Preview](./a222a6cc-673c-46fc-bb99-ce4f4672099f.png)
-
 ## 📌 Overview
 
 This Power BI project provides a detailed analysis of a pizza restaurant's sales between **Jan 2015 to Dec 2015**. Using transactional data, we built an interactive dashboard that helps identify key trends, sales drivers, and performance insights across time, category, and pizza types.
@@ -50,8 +48,6 @@ All KPIs were derived using SQL and imported into Power BI for visualization. Re
 
 ### 1️⃣ Main Dashboard
 
-![Main Dashboard](./a222a6cc-673c-46fc-bb99-ce4f4672099f.png)
-
 Includes:
 - **Interactive Filters** for date and pizza category
 - **Trends by Day and Month**
@@ -62,8 +58,6 @@ Includes:
 ---
 
 ### 2️⃣ Best & Worst Performers
-
-![Best/Worst Sellers](./a8a5f2b8-40ef-416d-bad6-8f57d13cd8b3.png)
 
 Includes:
 - **Top 5 Pizzas by Revenue, Quantity, Orders**
