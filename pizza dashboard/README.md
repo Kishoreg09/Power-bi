@@ -78,8 +78,6 @@ The dataset includes over 48,000 records of pizza orders, containing the followi
 
 ---
 
----
-
 ## 🚀 How to Use
 
 1. Open the `.pbix` file in Power BI Desktop.
