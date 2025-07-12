@@ -1,97 +1,101 @@
 # 🍕 Pizza Sales Analysis Dashboard (Power BI Project)
 
-![Pizza Dashboard Preview](dashboard1.png)
-
 ## 📌 Overview
 
-This Power BI project provides a detailed analysis of a pizza restaurant's sales between **Jan 2015 to Dec 2015**. Using transactional data, we built an interactive dashboard that helps identify key trends, sales drivers, and performance insights across time, category, and pizza types.
+This Power BI project presents a comprehensive sales analysis for a pizza restaurant, covering data from January to December 2015. The goal is to derive actionable insights from the sales data, such as identifying best-selling pizzas, analyzing revenue trends, and understanding customer ordering behavior.
 
 ---
 
 ## 🧾 Dataset
 
-- **File**: [`pizza_sales.csv`](pizza%20dataset/pizza_sales.csv)
-- **Records**: 48,000+ rows
-- **Attributes**:
-  - `order_id`, `pizza_id`, `pizza_name_id`, `pizza_category`, `pizza_size`
-  - `quantity`, `order_date`, `order_time`, `unit_price`, `total_price`
+The dataset includes over 48,000 records of pizza orders, containing the following fields:
+
+- Order ID
+- Pizza ID and Name
+- Pizza Category (Classic, Veggie, etc.)
+- Pizza Size (Small, Medium, Large, etc.)
+- Quantity
+- Order Date and Time
+- Unit Price
+- Total Price
 
 ---
 
 ## 🛠️ Tools Used
 
-| Tool       | Purpose                          |
-|------------|----------------------------------|
-| Power BI   | Dashboard & Visualizations       |
-| SQL        | Data Preprocessing & Aggregation |
-| Excel/CSV  | Data Format & Storage            |
+- Power BI Desktop – for building interactive dashboards
+- SQL – for data analysis and aggregation
+- CSV/Excel – for storing and preprocessing raw data
 
 ---
 
-## 🧮 KPIs & SQL Queries
+## 🧮 Key Metrics and Insights
 
-All KPIs were derived using SQL and imported into Power BI for visualization. Refer to the [`PIZZA SALES SQL QUERIES.docx`](PIZZA%20SALES%20SQL%20QUERIES.docx) file for the full list of queries.
+### ✔️ KPI Cards
 
-### ✔️ Key KPIs:
-- **Total Orders**: `21,350`
-- **Total Revenue**: `₹817.86K`
-- **Average Order Value**: `₹38.31`
-- **Average Pizzas per Order**: `2.32`
-- **Total Pizzas Sold**: `49,574`
+- Total Orders: 21,350  
+- Total Revenue: ₹817.86K  
+- Average Order Value: ₹38.31  
+- Average Pizzas per Order: 2.32  
+- Total Pizzas Sold: 49,574  
 
-### 🔄 Trend Insights:
-- **Peak Days**: Friday and Saturday evenings
-- **Peak Months**: July and January
-- **Daily Order Pattern**: Consistent weekday performance with higher weekend spikes
+### 🔄 Trend Analysis
+
+- **Daily Trends**: Orders peak during weekends, especially on Fridays and Saturdays.  
+- **Monthly Trends**: Maximum orders occur in July and January.  
+
+### 🧠 Performance Insights
+
+- **Top Performing Pizzas**:
+  - By Revenue: Thai Chicken Pizza
+  - By Quantity: Classic Deluxe Pizza
+  - By Orders: Classic Deluxe Pizza
+
+- **Lowest Performing Pizzas**:
+  - By Revenue, Quantity, and Orders: Brie Carre Pizza
+
+- **Pizza Category with Highest Sales**: Classic  
+- **Pizza Size with Highest Sales**: Large  
 
 ---
 
-## 📊 Dashboard Highlights
+## 📊 Dashboard Overview
 
 ### 1️⃣ Main Dashboard
 
-![Pizza Dashboard Preview](dashboard1.png)
+- Visualizes KPIs
+- Daily and Monthly order trends
+- Sales distribution by pizza category and size
+- Total quantity sold per category
 
-Includes:
-- **Interactive Filters** for date and pizza category
-- **Trends by Day and Month**
-- **Revenue, Order, and Quantity KPIs**
-- **Sales % by Category & Size**
-- **Total Quantity Sold by Category**
+### 2️⃣ Best and Worst Sellers Dashboard
 
----
-
-### 2️⃣ Best & Worst Performers
-
-![Best/Worst Sellers](dashboard2.png)
-
-Includes:
-- **Top 5 Pizzas by Revenue, Quantity, Orders**
-- **Bottom 5 Pizzas by Revenue, Quantity, Orders**
-- **Performance Commentary on Seller Insights**
+- Top 5 and Bottom 5 pizzas by:
+  - Revenue
+  - Quantity sold
+  - Total orders
+- Summary insights on busiest days, top-selling categories, and more
 
 ---
-
 
 ---
 
 ## 🚀 How to Use
 
-1. Download or clone this repository.
-2. Open `Pizza Dashboard.pbix` in Power BI Desktop.
-3. Load the CSV file if prompted.
-4. Interact with the visuals and explore insights!
+1. Open the `.pbix` file in Power BI Desktop.
+2. Load the dataset if prompted.
+3. Interact with filters, charts, and slicers to explore the data.
 
 ---
 
 ## 📬 Contact
 
-For feedback, suggestions, or collaborations, feel free to connect via GitHub Issues.
+For any feedback or suggestions, feel free to raise an issue on the repository or connect on GitHub.
 
 ---
 
 ## ⭐ Acknowledgements
 
-Thanks to the open data and Power BI communities for inspiring this project.
+Special thanks to the Power BI and data analytics communities for learning resources and inspiration.
 
 ---
